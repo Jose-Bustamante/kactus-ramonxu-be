@@ -36,7 +36,6 @@ CORS_ORIGIN_WHITELIST = [
 
 INSTALLED_APPS = [
     'todo',
-    'polls.apps.PollsConfig',
     'corsheaders',
     'rest_framework',
     'django.contrib.admin',

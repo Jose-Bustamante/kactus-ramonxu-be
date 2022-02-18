@@ -23,7 +23,6 @@ router.register(r'todos', views.TodoView, 'todo')
 
 urlpatterns = [
     path('api/', include(router.urls)),
-    path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
     path('', admin.site.urls),
 ]
