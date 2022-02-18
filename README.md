@@ -1,5 +1,18 @@
 # kactus-ramonxu-be
 
+## What is this..
+Good question, I have no clue, is supposed to be a Python project using Django to expose some microservice such as `api/todos/` and `/api/todos/${id}`
+  - `http://localhost:8000/api/`
+  - `http://localhost:8000/api/todos`
+  - `http://localhost:8000/api/todos/1`
+
+
+It uses SQLite as default DB, you can access the admin panel in the route `/admin` I think. `http://localhost:8000/` or `http://localhost:8000/admin`
+
+It uses `djangorestframework` and `django-cors-headers` for the serialization of the models into JSON, you can inspect them in the UI in the URLs I put before.
+
+The APIs are supposed to be consumed by a detached FE layer, build what ever you like, I will give you a React example so you don't cry me a river. (here)[https://github.com/Jose-Bustamante/kactus-ramonxu-fe] is it.
+
 ## How to Start (I have no idea of what I am doing)
 - Have Python 3 installed obviously you noob.
 - Install DJango [here how](https://docs.djangoproject.com/en/4.0/intro/install/)
