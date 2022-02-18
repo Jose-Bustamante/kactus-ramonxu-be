@@ -11,7 +11,7 @@ It uses SQLite as default DB, you can access the admin panel in the route `/admi
 
 It uses `djangorestframework` and `django-cors-headers` for the serialization of the models into JSON, you can inspect them in the UI in the URLs I put before.
 
-The APIs are supposed to be consumed by a detached FE layer, build what ever you like, I will give you a React example so you don't cry me a river. (here)[https://github.com/Jose-Bustamante/kactus-ramonxu-fe] is it.
+The APIs are supposed to be consumed by a detached FE layer, build what ever you like, I will give you a React example so you don't cry me a river. [here](https://github.com/Jose-Bustamante/kactus-ramonxu-fe) is it.
 
 ## How to Start (I have no idea of what I am doing)
 - Have Python 3 installed obviously you noob.
